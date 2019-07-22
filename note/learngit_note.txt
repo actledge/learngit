@@ -1,0 +1,33 @@
+#创建文件夹，设为git的repository（仓库）
+mkdir learngit
+cd learngit
+git init
+
+#在仓库中添加文件
+git add<file>
+git commit -m 'XXX'
+
+example:
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m 'add 3 files.'
+
+----------------------------------
+#git status命令，掌握工作状态
+#git diff可以查看文件被修改的内容
+
+----------------------------------
+git reset --hard commit_id （或者HARD^ 或者HARD数字）
+git log查看提交历史，从而确定可以回退到哪个版本。
+git reflog再已回退到过去版本的情况下，可查看命令历史，可以回到未来的某个版本。
+
+----------------------------------
+git remote add origin git@github.com:origin/repo-name.git
+git push -u origin(或别的远程名）master(或别的分支名）
+git push origin master
+远程名多创建了一个写为origin1,为note的。
+
+---------------------------------
+克隆一个库到本地
+git clone git@githunb.com:actledge/gitskills.git
+
