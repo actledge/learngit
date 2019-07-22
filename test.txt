@@ -1,2 +1,0 @@
-This is a file named text.txt
-just for test.Nothing for other.
