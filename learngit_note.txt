@@ -12,4 +12,6 @@ git add file1.txt
 git add file2.txt file3.txt
 git commit -m 'add 3 files.'
 
-
+----------------------------------
+#git status命令，掌握工作状态
+#git diff可以查看文件被修改的内容
