@@ -1,0 +1,15 @@
+#创建文件夹，设为git的repository（仓库）
+mkdir learngit
+cd learngit
+git init
+
+#在仓库中添加文件
+git add<file>
+git commit -m 'XXX'
+
+example:
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m 'add 3 files.'
+
+
